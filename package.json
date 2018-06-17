@@ -8,8 +8,7 @@
         "build": "rollup -c packages/accounting/rollup.config.js",
         "watch": "rollup -c packages/accounting/rollup.config.js -w",
         "electron": "electron packages/accounting",
-        "electron-pack": "electron-packager packages/accounting --overwrite",
-        "postinstall": "electron-builder install-app-deps"
+        "electron-pack": "electron-packager packages/accounting --overwrite"
     },
     "devDependencies": {
         "lerna": "^2.11.0"
