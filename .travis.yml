@@ -18,7 +18,7 @@ before_install:
 install:
 - yarn
 - yarn build
-- yarns server
+- yarn server
 deploy:
   provider: heroku
   api_key:
